@@ -1,10 +1,12 @@
 import React from 'react';
 import './AboutUs.css';
+import { TiPlus } from "react-icons/ti";
+import { CiDollar } from "react-icons/ci";
+import { CiBellOn } from "react-icons/ci";
 
 const AboutUs = () => {
     return (
         <div className="about-us-container">
-            {/* Header Section */}
             <header className="header">
                 <div className="logo">Acme Subscription Manager</div>
                 <div className="nav-buttons">
@@ -13,32 +15,29 @@ const AboutUs = () => {
                 </div>
             </header>
 
-            {/* Hero Section */}
             <section className="hero-section">
                 <h1>Simplify Your Digital Life</h1>
                 <p>We help you take control of your subscriptions, save money, and never miss a payment.</p>
             </section>
 
-            {/* Features Section */}
             <section className="features">
                 <div className="feature">
-                    <div className="icon">+</div>
+                    <div className="icon"> <TiPlus /> </div>
                     <h3>Track Everything</h3>
                     <p>Monitor all your subscriptions in one place. Never lose track of what you're paying for.</p>
                 </div>
                 <div className="feature">
-                    <div className="icon">$</div>
+                    <div className="icon"> <CiDollar /> </div>
                     <h3>Save Money</h3>
                     <p>Identify unused subscriptions and optimize your spending with smart recommendations.</p>
                 </div>
                 <div className="feature">
-                    <div className="icon">🔔</div>
+                    <div className="icon"> <CiBellOn /> </div>
                     <h3>Never Miss a Payment</h3>
                     <p>Get timely reminders before payments are due and track renewal dates effortlessly.</p>
                 </div>
             </section>
 
-            {/* Statistics Section */}
             <section className="statistics">
                 <div className="stat">
                     <h2>50K+</h2>
@@ -54,25 +53,27 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            {/* Team Section */}
+            
             <section className="team">
-                <h2>Meet Our Team</h2>
-                <div className="team-member">
-                    <div className="avatar">JS</div>
-                    <h3>John Smith</h3>
-                    <p>CEO & Founder</p>
-                </div>
-                <div className="team-member">
-                    <div className="avatar">SD</div>
-                    <h3>Sarah Davis</h3>
-                    <p>Head of Product</p>
-                </div>
-                <div className="team-member">
-                    <div className="avatar">MR</div>
-                    <h3>Mike Roberts</h3>
-                    <p>Lead Developer</p>
-                </div>
-            </section>
+    <h2>Meet Our Team</h2>
+    <div className="onlyteam"> {/* Correct className */}
+        <div className="team-member">
+            <div className="avatar">JS</div>
+            <h3>John Smith</h3>
+            <p>CEO & Founder</p>
+        </div>
+        <div className="team-member">
+            <div className="avatar">SD</div>
+            <h3>Sarah Davis</h3>
+            <p>Head of Product</p>
+        </div>
+        <div className="team-member">
+            <div className="avatar">MR</div>
+            <h3>Mike Roberts</h3>
+            <p>Lead Developer</p>
+        </div>
+    </div>
+</section>
 
             {/* Call to Action Section */}
             <section className="cta">
