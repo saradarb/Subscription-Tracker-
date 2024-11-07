@@ -1,0 +1,190 @@
+
+
+.sign-in-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    background-color: #E7F5E9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 50px;
+    width: 1200px;
+    background-color: #E7F5E9;
+}
+
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.start-free-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sign-in-container {
+    background-color: #E7F5E9;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sign-in-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1px;
+    color: #333;
+    padding-left: 35px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #28a745;
+    margin-bottom: 20px;
+    padding-left: 45px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.forgot-password {
+    font-size: 0.85rem;
+    color: #28a745;
+    text-decoration: none;
+    position: absolute;
+    right: -20px;
+    top: 15%;
+    transform: translateY(-50%);
+    
+}
+
+.form-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.sign-in-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sign-up-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+.sign-up-link a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.or-continue {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.95rem;
+    color: #888;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-btn {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.google-btn {
+    color: black;
+    width: 48%; 
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+    gap: 10px;
+}
+
+.github-btn {
+    color: black;
+    width: 48%; 
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+    gap: 10px;
+}

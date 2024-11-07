@@ -1,4 +1,3 @@
-/* General Styles */
 .about-us-container {
     font-family: Arial, sans-serif;
     color: #333;
@@ -6,7 +5,6 @@
     margin: 0;
 }
 
-/* Header Section */
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,18 +22,18 @@
     margin-left: 10px;
     padding: 10px 20px;
     border: none;
-    background-color: #000802; /* Correct green color */
+    background-color: #000802; 
     color: rgb(3, 0, 0);
     border-radius: 5px;
     cursor: pointer;
 }
 
 .nav-buttons .sign-in {
-    background-color: #effdf2; /* Ensuring the Sign In button is green */
+    background-color: #effdf2; 
 }
 
 .nav-buttons .sign-up {
-    background-color: #28a745; /* Correct green color */
+    background-color: #28a745; 
 }
 
 .hero-section {
@@ -57,10 +55,11 @@
 
 .features {
     display: flex;
-    justify-content: center; /* Centers all feature items horizontally */
-    align-items: center; /* Aligns items vertically */
-    padding: 40px 20px;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
     background-color: #f0f4f8;
+    grid-area: 20px;
 }
 
 .feature {
@@ -88,6 +87,7 @@
 
 .feature p {
     color: #28a745;
+    font-size: 13px;
 }
 
 /* Statistics Section */
@@ -95,7 +95,7 @@
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
-    background-color: #ffffff;
+    background-color: #E7F5E9;
 }
 
 .stat {
@@ -116,19 +116,20 @@
 
 .onlyteam {
     display: flex;
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-    gap: 40px; /* Adds equal space between items */
+    justify-content: center; 
+    align-items: center; 
+    gap: 40px; 
     text-align: center;
-    width: 100%; /* Ensure the container takes full width */
-    max-width: 1200px; /* Optional: Limits the width of the container */
-    margin: 0 auto; /* Centers the container within the page */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 ;
+
 }
 
 .team-member {
-    display: flex; /* Changes to flex to ensure content inside aligns properly */
-    flex-direction: column; /* Stacks content vertically */
-    align-items: center; /* Centers content horizontally */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
     margin: 20px;
 }
 
@@ -136,7 +137,7 @@
     width: 80px;
     height: 80px;
     background-color: #ddd;
-    border-radius: 50%; /* Makes the avatar circular */
+    border-radius: 50%; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,17 +152,23 @@
     background-color: #e8f5e9;
 }
 
+.cta p {
+    color: #28a745;
+
+}
+
 .cta h2 {
-    color: #28a745; /* CTA heading green */
+    color: #000501; 
 }
 
 .cta-button {
     padding: 15px 30px;
-    background-color: #28a745; /* Button green */
-    color: white;
+    background-color: #28a745; 
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .team p {
@@ -186,13 +193,13 @@
 
 .footer-column h4 {
     margin-bottom: 10px;
-    color: #28a745; /* Footer section titles green */
+    color: #000000; 
 }
 
 .footer-column li {
     margin-bottom: 5px;
     cursor: pointer;
-    color: #28a745; /* Footer links green */
+    color: #28a745; 
 }
 
 
@@ -200,5 +207,5 @@
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
-    color: #555;
+    color: #28a745;
 }

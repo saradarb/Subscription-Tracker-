@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './AboutUs.css';
 import { TiPlus } from "react-icons/ti";
@@ -15,12 +16,12 @@ const AboutUs = () => {
                 </div>
             </header>
 
-            <section className="hero-section">
+            <div className="hero-section">
                 <h1>Simplify Your Digital Life</h1>
                 <p>We help you take control of your subscriptions, save money, and never miss a payment.</p>
-            </section>
+            </div>
 
-            <section className="features">
+            <div className="features">
                 <div className="feature">
                     <div className="icon"> <TiPlus /> </div>
                     <h3>Track Everything</h3>
@@ -36,9 +37,9 @@ const AboutUs = () => {
                     <h3>Never Miss a Payment</h3>
                     <p>Get timely reminders before payments are due and track renewal dates effortlessly.</p>
                 </div>
-            </section>
+            </div>
 
-            <section className="statistics">
+            <div className="statistics">
                 <div className="stat">
                     <h2>50K+</h2>
                     <p>Active Users</p>
@@ -51,10 +52,10 @@ const AboutUs = () => {
                     <h2>100K+</h2>
                     <p>Subscriptions Managed</p>
                 </div>
-            </section>
+            </div>
 
             
-            <section className="team">
+            <div className="team">
     <h2>Meet Our Team</h2>
     <div className="onlyteam"> {/* Correct className */}
         <div className="team-member">
@@ -73,16 +74,16 @@ const AboutUs = () => {
             <p>Lead Developer</p>
         </div>
     </div>
-</section>
+</div>
 
-            {/* Call to Action Section */}
-            <section className="cta">
+           
+            <div className="cta">
                 <h2>Ready to Take Control?</h2>
                 <p>Join thousands of users who have simplified their subscription management and saved money.</p>
                 <button className="cta-button">Get Started for Free</button>
-            </section>
+            </div>
 
-            {/* Footer Section */}
+           
             <footer className="footer">
                 <div className="footer-links">
                     <div className="footer-column">
