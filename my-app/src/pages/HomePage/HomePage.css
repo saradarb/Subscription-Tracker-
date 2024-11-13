@@ -1,0 +1,172 @@
+/* General Page Styling */
+.home-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav .nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.start-free-btn {
+    background-color: #28a745;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #f0f8f5;
+    
+    
+}
+.hero-content{
+    padding-right: 50px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+
+}
+.hero-content p {
+    color: #28a745;
+}
+
+.hero-buttons .cta-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.learn-more-btn {
+    background-color: #ffffff;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.trial-text {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.subscriptions-summary {
+    background-color: #e8f5e9;
+    
+    padding: 2cqi;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    margin: 20px;
+    border: 30px solid rgb(255, 255, 255);
+}
+    
+
+    
+    
+
+
+.features {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.somebox{
+    display: flex;
+
+}
+.green{
+    color: #28a745;
+}
+.monthly-spending{
+    background-color: white;
+    margin: 5px;
+}
